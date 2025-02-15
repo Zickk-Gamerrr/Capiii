@@ -1,0 +1,13 @@
+/* Cambio de color de las flores de amarillo a rojo */
+
+.flower__leaf {
+  background-image: linear-gradient(to top, #ff0000, #ff0000); /* Rojo */
+}
+
+.flower__leaf--4 {
+  background-image: linear-gradient(to top, #ff0000, #ff0000); /* Rojo */
+}
+
+.flower__light:nth-child(odd) {
+  background-color: #ff0000; /* Rojo */
+}
